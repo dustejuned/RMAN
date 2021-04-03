@@ -1,0 +1,25 @@
+﻿  Application.cpp
+d:\console games\rman\rman\src\core\application.h(14): warning C4251: 'RMAN::Application::app_window': class 'std::unique_ptr<RMAN::Window,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'RMAN::Application'
+          with
+          [
+              _Ty=RMAN::Window
+          ]
+  d:\console games\rman\rman\src\core\window.h(25): note: see declaration of 'std::unique_ptr<RMAN::Window,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=RMAN::Window
+          ]
+  KeyEvent.cpp
+  Log.cpp
+d:\console games\rman\rman\src\core\log.h(14): warning C4251: 'RMAN::Log::_coreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'RMAN::Log'
+  d:\console games\rman\vendor\spdlog\include\spdlog\details\registry.h(34): note: see declaration of 'std::shared_ptr<spdlog::logger>'
+d:\console games\rman\rman\src\core\log.h(15): warning C4251: 'RMAN::Log::_clientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'RMAN::Log'
+  d:\console games\rman\vendor\spdlog\include\spdlog\details\registry.h(34): note: see declaration of 'std::shared_ptr<spdlog::logger>'
+d:\console games\rman\rman\src\core\log.h(28): warning C4005: 'RMAN_DEBUG': macro redefinition
+  d:\console games\rman\rman\src\core\log.cpp: note: see previous definition of 'RMAN_DEBUG'
+  Window.cpp
+  WindowsWindow.cpp
+d:\console games\rman\rman\src\platform\windows\windowswindow.cpp(123): warning C4838: conversion from 'const uint32_t' to 'LONG' requires a narrowing conversion
+  Generating Code...
+     Creating library bin\Debug-windows-x86_64\RMAN\RMAN.lib and object bin\Debug-windows-x86_64\RMAN\RMAN.exp
+  RMAN.vcxproj -> D:\Console Games\RMAN\bin\Debug-windows-x86_64\RMAN\RMAN.dll

@@ -1,0 +1,9 @@
+﻿  SanboxApp.cpp
+d:\console games\rman\rman\src\core\log.h(14): warning C4251: 'RMAN::Log::_coreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'RMAN::Log'
+  d:\console games\rman\vendor\spdlog\include\spdlog\details\registry.h(34): note: see declaration of 'std::shared_ptr<spdlog::logger>'
+d:\console games\rman\rman\src\core\log.h(15): warning C4251: 'RMAN::Log::_clientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'RMAN::Log'
+  d:\console games\rman\vendor\spdlog\include\spdlog\details\registry.h(34): note: see declaration of 'std::shared_ptr<spdlog::logger>'
+d:\console games\rman\rman\src\core\log.h(28): warning C4005: 'RMAN_DEBUG': macro redefinition
+  d:\console games\rman\sandbox\src\sanboxapp.cpp: note: see previous definition of 'RMAN_DEBUG'
+  LINK : bin-int\Debug-windows-x86_64\Sandbox\Sandbox.dll not found or not built by the last incremental link; performing full link
+  Sandbox.vcxproj -> D:\Console Games\RMAN\bin-int\Debug-windows-x86_64\Sandbox\Sandbox.dll

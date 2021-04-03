@@ -1,0 +1,13 @@
+﻿  Application.cpp
+  Log.cpp
+d:\console games\rman\rman\src\core\log.h(14): warning C4251: 'RMAN::Log::_coreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'RMAN::Log'
+  d:\console games\rman\vendor\spdlog\include\spdlog\details\registry.h(34): note: see declaration of 'std::shared_ptr<spdlog::logger>'
+d:\console games\rman\rman\src\core\log.h(15): warning C4251: 'RMAN::Log::_clientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'RMAN::Log'
+  d:\console games\rman\vendor\spdlog\include\spdlog\details\registry.h(34): note: see declaration of 'std::shared_ptr<spdlog::logger>'
+d:\console games\rman\rman\src\core\log.h(28): warning C4005: 'RMAN_DEBUG': macro redefinition
+  d:\console games\rman\rman\src\core\log.cpp: note: see previous definition of 'RMAN_DEBUG'
+  Generating Code...
+     Creating library bin-int\Debug-windows-x86_64\RMAN\RMAN.lib and object bin-int\Debug-windows-x86_64\RMAN\RMAN.exp
+  RMAN.vcxproj -> D:\Console Games\RMAN\bin-int\Debug-windows-x86_64\RMAN\RMAN.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: The command "IF EXIST bin-int\Debug-windows-x86_64\RMAN\RMAN.dll\ (xcopy /Q /E /Y /I bin-int\Debug-windows-x86_64\RMAN\RMAN.dll bin\Debug-windows-x86_64\Sandbox > nul) ELSE (xcopy /Q /Y /I bin-int\Debug-windows-x86_64\RMAN\RMAN.dll bin\Debug-windows-x86_64\Sandbox > nul)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(138,5): error MSB3073: :VCEnd" exited with code 2.
